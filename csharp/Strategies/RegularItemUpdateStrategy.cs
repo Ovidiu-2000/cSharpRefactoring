@@ -10,13 +10,10 @@ namespace csharp
     {
         public void UpdateItem(Item item)
         {
-            if(item.SellIn < 0 && item.Quality >= 2)
+            if (item.Quality > 0) item.Quality--;
+            if (item.SellIn < 0)
             {
-                item.Quality -= 2;
-            }
-            else
-            {
-                item.Quality--;
+                if (item.Quality > 0) item.Quality--;
             }
             item.SellIn--;
         }
