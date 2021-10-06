@@ -8,12 +8,15 @@ using System.Threading.Tasks;
 
 namespace GildedRoseTest
 {
-    class GildedRoseTestForLegendaryItemsShould
+    class GildedRoseCommonTestShould
     {
         [Test]
-        [TestCase("Sulfuras, Hand of Ragnaros", 10, 80, 10, 80)]
-        public void SellInAndQualityRemainsTheSameForLegendaryItems(string Name, int SellIn,
-           int Quality, int ExpectedSellIn, int ExpectedQuality)
+        [TestCase("Regular1", 15, 50, 14, 49)]
+        [TestCase("Aged Brie", 15, 50, 14, 50)]
+        [TestCase("Backstage passes to a TAFKAL80ETC concert", 15, 50, 14, 50)]
+        
+        public void NotExceed50QualityForAllItemsExceptTheLegendaryOne(string Name, int SellIn,
+            int Quality, int ExpectedSellIn, int ExpectedQuality)
         {
             IList<Item> items = new List<Item>()
             {
