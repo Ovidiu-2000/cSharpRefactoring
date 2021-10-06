@@ -66,6 +66,7 @@
     <Compile Include="IStrategyFactory\IItemUpdateFactory.cs" />
     <Compile Include="Strategies\AgedBrieUpdateStrategy.cs" />
     <Compile Include="Strategies\BackstagePassesUpdateStrategy.cs" />
+    <Compile Include="Strategies\ConjuredUpdateStrategy.cs" />
     <Compile Include="Strategies\IItemUpdateStrategy.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />

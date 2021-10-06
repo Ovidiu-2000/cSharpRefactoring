@@ -19,6 +19,8 @@ namespace csharp.IStrategyFactory
                     return new BackstagePassesUpdateStrategy();
                 case "Sulfuras, Hand of Ragnaros":
                     return new LegendaryUpdateStrategy();
+                case "Conjured Mana Cake":
+                    return new ConjuredUpdateStrategy();
                 default:
                     return new RegularItemUpdateStrategy();
             }
