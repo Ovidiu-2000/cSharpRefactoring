@@ -10,7 +10,6 @@ namespace csharp.Strategies
     {
         public void UpdateItem(Item item)
         {
-            item.Quality = -1;
             return;
         }
     }

@@ -10,8 +10,8 @@ namespace csharp.Strategies
     {
         public void UpdateItem(Item item)
         {   
-            /*if (item.Quality < 50) item.Quality++;
-            item.SellIn--;*/
+            if (item.Quality < 50) item.Quality++;
+            item.SellIn--;
         }
     }
 }
