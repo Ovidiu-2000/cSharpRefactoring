@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp", "csharp.csproj", "{176C0214-9136-4079-8DAB-11D7420C3881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseTest", "..\GildedRoseTest\GildedRoseTest.csproj", "{665E03A3-5FAB-4D78-8B5D-1DEC57087215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665E03A3-5FAB-4D78-8B5D-1DEC57087215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665E03A3-5FAB-4D78-8B5D-1DEC57087215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665E03A3-5FAB-4D78-8B5D-1DEC57087215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665E03A3-5FAB-4D78-8B5D-1DEC57087215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD06B80-50F4-475B-A7EB-5E095221F14F}
 	EndGlobalSection
 EndGlobal
