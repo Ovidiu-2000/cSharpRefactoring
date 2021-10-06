@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp
+namespace csharp.IStrategyFactory
 {
-    interface IItemUpdateStrategy
+    interface IItemUpdateFactory
     {
-        void UpdateItem(Item item);
+        IItemUpdateStrategy CreateStrategy(Item item);
     }
 }
