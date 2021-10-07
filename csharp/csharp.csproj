@@ -62,8 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GildedRose.cs" />
-    <Compile Include="IStrategyFactory\ConcreteItemUpdateFactory.cs" />
-    <Compile Include="IStrategyFactory\IItemUpdateFactory.cs" />
+    <Compile Include="StrategyFactory\ConcreteItemUpdateFactory.cs" />
+    <Compile Include="StrategyFactory\IItemUpdateFactory.cs" />
     <Compile Include="Strategies\AgedBrieUpdateStrategy.cs" />
     <Compile Include="Strategies\BackstagePassesUpdateStrategy.cs" />
     <Compile Include="Strategies\ConjuredUpdateStrategy.cs" />
